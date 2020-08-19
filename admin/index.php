@@ -166,8 +166,8 @@
 				// Get the most popular count
 				$pluginMaxCount = reset($masterPluginCountArray);
 				
-				$popularPluginsArray="";
-
+				//$popularPluginsArray="";
+				$popularPluginsArray=array();
 				foreach($masterPluginCountArray as $pluginName => $useCount)
 				{
 					if($pluginMaxCount==$useCount)
